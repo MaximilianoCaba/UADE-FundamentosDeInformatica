@@ -84,7 +84,7 @@ print(a)
 ingresar dos valores A y B menores a 1000, obtener su producto utilizando el metodo egipcio
 """
 
-
+"""
 def ingresarValor(valueName):
     a = 1001
     while a > 1000:
@@ -125,7 +125,53 @@ numero_b = ingresarValor("B")
 list_a, list_b = generarListas(numero_a, numero_b)
 resultado = calcularNumeroEgipcio(list_a, list_b, numero_a)
 print(resultado)
+"""
+
+
 
 ## buscar:
 ## ordenamiento secuencial
+"""
+lista = [4, 3, 8, 7]
+posicion = -1
+contador = 0
+bandera = 0
+valor = 8
+
+while contador < len(lista) and bandera == 0:
+    if lista[contador] == valor:
+        bandera = 1
+        posicion = contador
+    else:
+        contador += 1
+
+if bandera == 1:
+    print(posicion)
+else:
+    print("no esta en la lista")
+"""
+
 ## ordenamiento binario
+"""
+lista = [4, 3, 8, 7]
+posicion = -1
+valor = 8
+min = 0
+max = len(lista) - 1
+
+while min <= max and posicion == -1:
+    medio = (min + max) // 2
+    if valor == len(medio):
+        posicion = medio
+    if valor > lista[medio]:
+        min = medio + 1
+    else:
+        max = medio - 1
+
+if posicion != -1:
+    print(posicion)
+else:
+    print("El valor no esta en la lista")
+     
+"""
+
