@@ -152,6 +152,7 @@ else:
 """
 
 ## ordenamiento binario
+
 """
 lista = [4, 3, 8, 7]
 posicion = -1
