@@ -27,7 +27,7 @@ sum = 0
 multi = 1
 for i in range(6):
     list.append(int(input("ingrese un valor")))
-
+ 
 for i in range(6):
     if (i % 2) == 0:
         sum += list[i]
@@ -130,7 +130,7 @@ print(resultado)
 
 
 ## buscar:
-## ordenamiento secuencial
+## secuencial
 """
 lista = [4, 3, 8, 7]
 posicion = -1
@@ -151,7 +151,7 @@ else:
     print("no esta en la lista")
 """
 
-## ordenamiento binario
+## binario
 
 """
 lista = [4, 3, 8, 7]
